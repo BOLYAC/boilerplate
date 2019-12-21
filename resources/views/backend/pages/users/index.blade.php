@@ -1,5 +1,3 @@
-@extends('backend.app')
-
 @section('content')
 
     <!-- Content Wrapper. Contains page content -->
@@ -25,11 +23,8 @@
         <!-- Main content -->
         <div class="content">
             <div class="container-fluid">
-                <div class="row">
-                    @widget('all_users')
-                </div>
-                <div style="display: flex; justify-content: center; align-items: center;">
-                    <img src="{{ asset('backend/img/undraw_dashboard_nklg.svg') }}" alt="">
+                <div>
+                    <h1>Index users</h1>
                 </div>
             </div>
         </div>
